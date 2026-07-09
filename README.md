@@ -19,11 +19,11 @@ Para automatizar este proceso se utilizan las siguientes herramientas:
 ## Flujo de trabajo
 
 1. **Entrada**: espectro crudo (sin procesar).
-2. **Corrección telúrica**: MOLECFIT identifica y remueve las líneas de absorción telúrica.
-3. **Normalización**: el espectro se normaliza para facilitar su análisis posterior.
-4. **Síntesis espectral**: Turbospectrum genera los espectros sintéticos de referencia.
-5. **Ajuste espectroscópico**: el algoritmo de minimización de χ² compara el espectro limpio con los modelos sintéticos generados.
-6. **Salida**: espectro limpio y parámetro de metalicidad estimado.
+2. **Normalización**: el espectro se normaliza para facilitar su análisis posterior.
+3. **Corrección telúrica**: MOLECFIT identifica y remueve las líneas de absorción telúrica.
+5. **Síntesis espectral**: Turbospectrum genera los espectros sintéticos de referencia.
+6. **Ajuste espectroscópico**: el algoritmo de minimización de χ² compara el espectro limpio con los modelos sintéticos generados.
+7. **Salida**: espectro limpio y parámetro de metalicidad estimado.
 
 ## Resultados
 
