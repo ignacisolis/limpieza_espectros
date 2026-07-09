@@ -32,24 +32,4 @@ Como resultado de este pipeline se obtiene:
 - Un **espectro limpio**, libre de contaminación telúrica y normalizado, listo para su análisis espectroscópico.
 - La **metalicidad estelar** expresada en [Fe/H] dex, obtenida a partir del ajuste automatizado.
 
-## Uso
 
-```bash
-# Ejemplo de ejecución del pipeline (ajustar según implementación real)
-python run_pipeline.py --input espectro_crudo.fits --output resultados/
-```
-
-## Estructura del proyecto
-
-```
-├── data/               # Espectros de entrada
-├── molecfit_config/    # Archivos de configuración de MOLECFIT
-├── turbospectrum/      # Configuración y modelos de síntesis espectral
-├── scripts/            # Scripts de automatización
-├── results/            # Espectros limpios y resultados de metalicidad
-└── README.md
-```
-
-## Licencia
-
-Especificar la licencia del proyecto aquí (por ejemplo, MIT, GPL-3.0, etc.).
